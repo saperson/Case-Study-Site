@@ -3,13 +3,21 @@ main {
 	top: 0;
 }
 
+.homepage-nav-grid-container {
+	margin-left: 11%;
+	margin-right: 11%;
+	position: absolute;
+	z-index: 4;
+	margin-top: 675px;
+}
+
 .homepage-nav-grid {
 	margin-top: 30px;
 	display: grid; 
 	justify-content: center;
 	align-items: center;
 	grid-template-columns: 50px 50px 50px 50px;
-	grid-column-gap: 80px;
+	grid-column-gap: 370px;
 	max-width: 100%;
 	min-width: 100%;
 	z-index: 3;
@@ -47,6 +55,7 @@ main {
 	grid-gap: 0;
 	overflow: hidden;
 	z-index: 1;
+	min-height: 100%vw;
 }
 
 .homepage-grid-item {
