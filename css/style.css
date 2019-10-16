@@ -66,7 +66,7 @@ body {
 	-moz-transition: .3s -moz-filter ease-in-out;
 	-ms-transition: .3s -ms-filter ease-in-out;
 	-o-transition: .3s -o-filter ease-in-out;
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 	z-index: 2;
 }
 
@@ -119,6 +119,10 @@ body {
 	color: white;
 	line-height: normal;
 }
+
+/*
+
+OLD NAV
 
 .nav-circles-container {
 	position: absolute;
@@ -179,7 +183,7 @@ body {
 	font-size: 25px;
 	font-family: franklin-gothic-ext-comp-urw, sans-serif;
 	color: white;
-}
+}*/
 
 a {
 	text-decoration: none;
@@ -214,12 +218,10 @@ a:hover {
 .subpage-nav-grid {
 	margin-top: 30px;
 	display: grid; 
+	align-content: center;
 	justify-content: center;
-	align-items: center;
-	grid-template-columns: 50px 50px 50px 50px;
-	grid-column-gap: 80px;
-	max-width: 100%;
-	min-width: 100%;
+	grid-template-columns: 60px 60px 60px 60px;
+	grid-column-gap: 50px;
 }
 
 .subpage-nav-circles-li {
@@ -247,7 +249,7 @@ a:hover {
 
 .eames-body {
 	background-image: url("../images/eames_1.png");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	max-width: 100%;
 }
@@ -277,7 +279,7 @@ a:hover {
 	display: block; 
 	max-width: 30%; 
 	position: relative; 
-	top: 120px; 
+	top: 150px; 
 	margin-left: 3%; 
 	text-shadow: 0 0 20px black;
 	background-color: black;
@@ -308,10 +310,11 @@ a:hover {
 	display: block; 
 	max-width: 30%; 
 	position: relative; 
-	top: 420px; 
+	top: 400px; 
 	margin-left: 3%; 
 	background-color: black;
 	padding: 30px;
+	overflow: auto;
 }
 
 .subpage-number-header {
@@ -332,6 +335,8 @@ a:hover {
 }
 
 footer {
+	display: grid;
+	grid-template-columns: 50vw 50vw;
 	position: fixed;
 	min-height: 10%;
 	bottom: 0;
@@ -339,10 +344,28 @@ footer {
 	background-color: black;
 }
 
-footer p {
+footer p{
 	font-family: freight-sans-pro, sans-serif;
-	text-align: right;
 	color: white;
+	font-size: 15px;
+}
+
+footer a {
+	font-size: 20px;
+	color: white;
+}
+
+.footer-home-button {
+	text-align: left;
+	height: 50px;
+	padding-top: 35px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+.footer-description {
+	text-align: right;
 	height: 50px;
 	padding-top: 35px;
 	padding-right: 30px;
