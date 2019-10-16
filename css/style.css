@@ -1,6 +1,6 @@
-main {
-	min-height: 100%;
-	top: 0;
+body {
+	max-height: 100%vw;
+	overflow: hidden;
 }
 
 .homepage-nav-grid-container {
@@ -12,15 +12,11 @@ main {
 }
 
 .homepage-nav-grid {
-	margin-top: 30px;
+	margin-top: 40px;
 	display: grid; 
-	justify-content: center;
-	align-items: center;
-	grid-template-columns: 50px 50px 50px 50px;
-	grid-column-gap: 370px;
-	max-width: 100%;
-	min-width: 100%;
+	grid-template-columns: 25vw 25vw 25vw 25vw;
 	z-index: 3;
+	min-width: 100%vw;
 }
 
 .homepage-nav-circles-li {
@@ -41,7 +37,7 @@ main {
 }
 
 .homepage-nav-ul-li {
-	font-size: 20px;
+	font-size: 25px;
 	list-style-type: none;
 	padding-top: 10px;
 }
@@ -251,7 +247,7 @@ a:hover {
 
 .eames-body {
 	background-image: url("../images/eames_1.png");
-	background-size: auto;
+	background-size: contain;
 	background-repeat: no-repeat;
 	max-width: 100%;
 }
@@ -260,18 +256,21 @@ a:hover {
 	background-image: url("../images/ellwood_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	max-width: 100%;
 }
 
 .bailey-body {
 	background-image: url("../images/bailey_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	max-width: 100%;
 }
 
 .stahl-body {
 	background-image: url("../images/stahl_2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	max-width: 100%;
 }
 
 .eames-content-container {
