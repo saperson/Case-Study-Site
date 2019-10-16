@@ -16,7 +16,7 @@ body {
 	display: grid; 
 	grid-template-columns: 25vw 25vw 25vw 25vw;
 	z-index: 3;
-	min-width: 100%vw;
+	min-width: 100vw;
 }
 
 .homepage-nav-circles-li {
