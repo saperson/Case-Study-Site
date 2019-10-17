@@ -106,7 +106,7 @@ body {
 }
 
 .homepage-intro-container {
-	display: inline-block;
+	display: block;
 	margin-top: 800px;
 	max-width: 75%;
 	position: absolute;
@@ -234,6 +234,7 @@ a:hover {
 	font-size: 20px;
 	border-radius: 25px;
 	color: black;
+	margin-left: 6px;
 }
 
 .subpage-nav-circles-li:hover {
