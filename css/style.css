@@ -1,6 +1,7 @@
 body {
 	max-height: 100%;
 	overflow: hidden;
+	background-color: black;
 }
 
 .homepage-nav-grid-container {
@@ -17,11 +18,11 @@ body {
 	min-width: 100vw;
 }
 
-.homepage-nav-grid div{
+.homepage-nav-grid div {
 	text-align: center;
 }
 
-.homepage-nav-grid div{
+.homepage-nav-grid div {
 	text-align: center;
 }
 
@@ -62,12 +63,13 @@ body {
 
 .homepage-grid-item {
 	position: relative;
-	max-width: 25%vw;
+	width: 25vw;
+	opacity: .55;
 	margin: auto;
 	overflow: hidden;
 	height: 100vh;
     filter: blur(4px);
-	transition: 1s filter linear;
+	transition: .3s filter linear;
 	-webkit-transition: .3s -webkit-filter ease-in-out;
 	-moz-transition: .3s -moz-filter ease-in-out;
 	-ms-transition: .3s -ms-filter ease-in-out;
@@ -78,6 +80,10 @@ body {
 
 .homepage-grid-item:hover {
     filter: blur(0px);
+    opacity: 1;
+    z-index: 5;
+    width: 25vw;
+    border-bottom: 5px solid white;
 }
 
 .homepage-nav-img {
@@ -87,7 +93,7 @@ body {
 
 .homepage-title-container {
 	position: absolute;
-	top: 15%;
+	top: 8%;
 	left: 0;
 	right: 0;
 	margin-left: auto;
@@ -113,11 +119,12 @@ body {
 
 .homepage-intro-container {
 	display: block;
-	margin-top: 800px;
 	max-width: 75%;
 	position: absolute;
-	margin: 25%;
+	margin: 22%;
 	z-index: 3;
+	/*background-color: black;
+	padding: 30px;*/
 }
 
 .homepage-intro-container p {
@@ -288,8 +295,8 @@ a:hover {
 .eames-content-container {
 	display: block; 
 	max-width: 30%; 
-	position: relative; 
-	top: 120px; 
+	position: relative;
+	top: 160px; 
 	margin-left: 3%; 
 	text-shadow: 0 0 20px black;
 	background-color: black;
@@ -320,7 +327,7 @@ a:hover {
 	display: block; 
 	max-width: 30%; 
 	position: relative;
-	top: 400px; 
+	top: 350px; 
 	margin-left: 3%; 
 	background-color: black;
 	padding: 30px;
