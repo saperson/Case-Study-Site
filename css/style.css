@@ -21,6 +21,10 @@ body {
 	text-align: center;
 }
 
+.homepage-nav-grid div{
+	text-align: center;
+}
+
 .homepage-nav-circles-li {
 	display: inline-flex;
 	padding: 10px;
@@ -58,7 +62,7 @@ body {
 
 .homepage-grid-item {
 	position: relative;
-	max-width: 25%;
+	max-width: 25%vw;
 	margin: auto;
 	overflow: hidden;
 	height: 100vh;
