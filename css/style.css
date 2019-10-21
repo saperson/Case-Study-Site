@@ -239,7 +239,6 @@ a:hover {
 
 .subpage-nav-circles-li:hover {
 	color: black;
-	letter-spacing: normal;
 }
 
 .subpage-nav-ul-li {
@@ -280,7 +279,7 @@ a:hover {
 	display: block; 
 	max-width: 30%; 
 	position: relative; 
-	top: 150px; 
+	top: 120px; 
 	margin-left: 3%; 
 	text-shadow: 0 0 20px black;
 	background-color: black;
@@ -310,7 +309,7 @@ a:hover {
 .stahl-content-container {
 	display: block; 
 	max-width: 30%; 
-	position: relative; 
+	position: relative;
 	top: 400px; 
 	margin-left: 3%; 
 	background-color: black;
