@@ -199,32 +199,27 @@ a:hover {
 
 .eames-body {
 	background-image: url("../images/eames_2.png");
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	max-width: 100%;
+	height: 100vw
 }
 
 .ellwood-body {
 	background-image: url("../images/ellwood_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	max-width: 100%;
 }
 
 .bailey-body {
 	background-image: url("../images/bailey_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	max-width: 100%;
 }
 
 .stahl-body {
 	background-image: url("../images/stahl_2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	max-width: 100%;
-	overflow: auto;
-	height: 500px;
 }
 
 /* Subpage content styles */
@@ -264,7 +259,7 @@ a:hover {
 	display: block; 
 	max-width: 40%; 
 	position: relative;
-	top: 475px; 
+	top: 400px; 
 	margin-left: 3%; 
 	background-color: black;
 	padding: 30px;
