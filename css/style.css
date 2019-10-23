@@ -120,8 +120,6 @@ body {
 	position: absolute;
 	margin: 22%;
 	z-index: 3;
-	/*background-color: black;
-	padding: 30px;*/
 }
 
 .body-paragraph {
@@ -200,7 +198,7 @@ a:hover {
 /* Subpage body styles */
 
 .eames-body {
-	background-image: url("../images/eames_1.png");
+	background-image: url("../images/eames_2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-width: 100%;
