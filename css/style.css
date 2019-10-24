@@ -77,6 +77,10 @@ body {
 	z-index: 2;
 }
 
+.homepage-grid-item a{
+	width: 100%;
+}
+
 .homepage-grid-item:hover {
     filter: blur(0px);
 	opacity: 1;
@@ -150,16 +154,16 @@ a:hover {
 
 .subpage-header {
 	height: 15%;
-	min-width: 100%;
+	min-width: 75%;
 	position: absolute;
 	top: 0;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .subpage-nav-container {
 	position: absolute;
 	margin-top: 25px;
-	min-width: 100%;
+	min-width: 75%;
 	z-index: 3;
 }
 
@@ -225,42 +229,42 @@ a:hover {
 
 .eames-content-container {
 	display: block; 
-	max-width: 40%; 
+	max-width: 33%; 
 	position: relative;
 	top: 160px; 
 	margin-left: 3%; 
 	text-shadow: 0 0 20px black;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 30px;
 }
 
 .ellwood-content-container {
 	display: block; 
-	max-width: 40%; 
+	max-width: 33%; 
 	position: relative; 
 	top: 220px; 
 	margin-left: 3%; 
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 30px;
 }
 
 .bailey-content-container {
 	display: block; 
-	max-width: 40%; 
+	max-width: 33%; 
 	position: relative; 
 	top: 320px; 
 	margin-left: 3%; 
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 30px;
 }
 
 .stahl-content-container {
 	display: block; 
-	max-width: 40%; 
+	max-width: 33%; 
 	position: relative;
 	top: 400px; 
 	margin-left: 3%; 
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 30px;
 	overflow: auto;
 }
